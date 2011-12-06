@@ -18,24 +18,33 @@
     (<= (Math/abs x) (Math/abs rx))
     (<= (Math/abs y) (Math/abs ry))))
 
+(defn find-under [rx ry seen-dots]
+  (first
+    (filter identity
+      (let [sx (int (Math/signum (float rx)))
+            sy (int (Math/signum (float ry)))]
+        (for [x (map #(* % sx) (range (+ 1 (Math/floor (Math/abs rx)))))
+              y (map #(* % sy) (range (+ 1 (Math/floor (Math/abs ry)))))]
+          (and (not (contains? seen-dots [x y]))
+            (in-rect rx ry x y)
+            [x y]))))))
+
 (defn spiral [n]
-  (let [turn (ref 0)
-        seen-dots (atom (transient #{[0 0]}))]
+  (let [turn (atom 0)
+        seen-dots (atom #{[0 0]})]
     (for [idx (range n)]
       (loop [cur-turn @turn]
         (let [new-turn (inc cur-turn)
               old-x (calculate :x cur-turn)
               old-y (calculate :y cur-turn)
               new-x (calculate :x new-turn)
-              new-y (calculate :y new-turn)]
-          (for [x (range)
-                y (range x)]
-            (if
-              (and (not (contains? @seen-dots [x y]))
-                (or (in-rect old-x new-y x y)
-                  (in-rect new-x old-y x y)))
-              (do
-                (ref-set turn cur-turn)
-                (swap! seen-dots #(conj % [x y]))
-                [x y])
-              (recur new-turn))))))))
+              new-y (calculate :y new-turn)
+              new-dot (first (filter identity [(find-under old-x new-y @seen-dots)
+                                               (find-under new-x old-y @seen-dots)]))]
+          (if new-dot
+            (do
+                          ; XXX lolwut?
+              (swap! turn (fn [x] cur-turn))
+              (swap! seen-dots #(conj % new-dot))
+              new-dot)
+            (recur new-turn)))))))
