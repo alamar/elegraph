@@ -12,7 +12,7 @@ ARGV.each do |name|
     end
     file.close
     out = File.open name + "titles", "wb"
-    out.puts titles.to_s
+    out.puts titles.join "\t"
     out.close
 end
 
