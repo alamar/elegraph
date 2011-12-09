@@ -29,10 +29,10 @@
             (in-rect rx ry x y)
             [x y]))))))
 
-(defn spiral [n]
+(defn spiral []
   (let [turn (atom 0)
         seen-dots (atom #{[0 0]})]
-    (for [idx (range n)]
+    (for [idx (range)]
       (loop [cur-turn @turn]
         (let [new-turn (inc cur-turn)
               old-x (calculate :x cur-turn)
