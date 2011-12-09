@@ -1,4 +1,3 @@
-(ns ru.lj.alamar.elegraph)
 
 (defn- first-arg [arg & whatever] arg)
 

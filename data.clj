@@ -1,4 +1,3 @@
-(ns lj.ru.alamar.elegraph)
 
 (defn read-data [file]
   (remove empty?
