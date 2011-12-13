@@ -11,7 +11,7 @@
 (defn window [fn data]
   [(apply min (map fn data)) (apply max (map fn data))])
 
-(defn window-weight [fn item window]
+(defn window-weight [value window]
   (/
-    (- (fn item) (first window))
+    (- value (first window))
     (- (second window) (first window))))
