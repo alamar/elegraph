@@ -8,10 +8,11 @@
             (Integer/parseInt col)
             col))))))
 
-(defn window [fn data]
-  [(apply min (map fn data)) (apply max (map fn data))])
-
-(defn window-weight [value window]
-  (/
-    (- value (first window))
-    (- (second window) (first window))))
+(defn окно [коррекция значения]
+  (let [минимум (apply min (map коррекция значения))
+        максимум (apply max (map коррекция значения))]
+    (fn [значение]
+      (let [корректированное (коррекция значение)]
+        (/
+          (- корректированное минимум)
+          (- максимум минимум))))))
