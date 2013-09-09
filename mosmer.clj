@@ -1,5 +1,5 @@
 (ns ru.lj.alamar.elegraph
-  (:require spiral data image util))
+  (:require spiral data image util clojure.contrib.math))
 
 (def данные (read-data "data/moscow-2013-09-08/data.csv"))
 (def заголовки (first данные))
@@ -15,13 +15,18 @@
 
 (def максимальная-явка (apply max (map явка уики)))
 
+(def средняя-явка (/ (сумма (map явка уики)) (count уики)))
+
 (println "Максимальная явка" максимальная-явка)
 
 ; Для более равномерного распределения
 (defn явка-для-окна [явка]
-  (Math/pow
-    (- максимальная-явка явка)
-    2.0))
+  (let [разница (- явка средняя-явка)
+        модуль (clojure.contrib.math/abs разница)
+        сдвиг (Math/pow модуль 0.33)]
+    (if (< явка средняя-явка)
+      (- 0 сдвиг)
+      сдвиг)))
 
 (defn доля-ер [уик]
   (/ (last уик) (сумма (фракции уик))))
@@ -106,6 +111,6 @@
 
 (println "Запись изображения")
 
-(save-image холст "mosmer.png")
+(save-image холст "mosmer-tst.png")
 
 
