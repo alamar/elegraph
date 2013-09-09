@@ -1,0 +1,4182 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//RU">
+<html>
+<head>
+<base href="http://www.moscow_city.vybory.izbirkom.ru/">
+<title>Сведения о проводящихся выборах и референдумах</title>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+<script type="text/javascript">
+
+	var st1 = null; // переменная, хранящая ссылку на SortableTable, !=null для сортируемых таблиц
+
+	function getXls() {
+
+		var sortorder = "0";
+		if ((st1!=null)&&(st1.sortDesc!=null)) {
+
+			if (st1.sortDesc) {
+				sortorder = "1";
+			}
+			else if (!st1.sortDesc) {
+				sortorder = "-1";
+			}
+		}
+
+		
+
+		window.location.assign("http://www.moscow_city.vybory.izbirkom.ru/servlet/ExcelReportVersion?"+
+								"region=77&"+
+								"sub_region=77&"+
+								"root=177409103&"+
+						
+								"global=null&"+
+								"vrn=27720001368289&"+
+								"tvd=27720001368413&"+
+								"type=222&"+
+								"vibid=27720001368413&"+
+								"condition=&"+
+								"action=show&"+
+								"version=null&"+
+								"prver=0&"+
+								"sortorder="+sortorder);
+	}
+	
+</script>
+
+</head>
+
+<body text="#000000" link="#0000ff" vlink="#0000ff" alink="#ff0000" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" bottommargin="0">
+
+<table cellpadding="0" cellspacing="0" width="100%" border="0">
+	<tr>
+		<td align="center" width="100%">
+						
+		</td>
+	</tr>
+</table>
+	
+	
+
+<!-- http://www.moscow_city.vybory.izbirkom.ru/region/moscow_city -->
+<link href="header/77/77.css" rel="stylesheet" type="text/css">
+<table border="0" cellpadding="0" cellspacing="0" height="81px" width="100%">
+	<tbody><a href="http://www.moscow_city.izbirkom.ru">
+
+		<tr>
+			<td rowspan="2" align="center" valign="top" width="16%">
+				<a href="http://www.moscow_city.izbirkom.ru"><img border="0" src="header/77/gerb.jpg" alt="gerb.gif" align="middle"/></a>
+				<br/>
+				<img src="header/77/e.gif" height="1" width="202"/>
+			</td>
+			<td align="center" background="header/77/bg_1.gif" height="80" valign="top" width="84%">
+				<br/>
+				<br/>
+				<h4>
+					<font color="#FF0000">МОСКОВСКАЯ ГОРОДСКАЯ ИЗБИРАТЕЛЬНАЯ КОМИССИЯ</font>
+				</h4>
+			</td>
+		</tr></a>
+		<tr style="padding:0;border-spacing:0;height:1px;">
+			<td background="header/77/line_hor.gif" colspan="2" style="padding:0;border-spacing:0;height:1px;"></td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#0f10a8" height="20" colspan="2">		
+			      
+			    <nobr>
+					&nbsp;&nbsp;
+					<a href="http://www.moscow_city.vybory.izbirkom.ru/region/moscow_city?action=show_komissia&region=77&sub_region=77&type=100&vrnorg=0&vrnkomis=0" style="text-decoration: none;color:#FFFFFF">Избирательные комиссии</a>
+					&nbsp;&nbsp;
+				</nobr>
+				<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+				<nobr>
+					&nbsp;&nbsp;
+					<a href="http://www.moscow_city.vybory.izbirkom.ru/region/moscow_city" style="text-decoration: none;color:#FFFFFF">Выборы и референдумы</a>
+					&nbsp;&nbsp;	
+				</nobr>
+				<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+				<nobr>
+					&nbsp;&nbsp;
+					<a href="http://www.moscow_city.vybory.izbirkom.ru/region/moscow_city?action=show_npa" style="text-decoration: none;color:#FFFFFF">Нормативная база</a>
+					&nbsp;&nbsp;		
+				</nobr>
+				<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+				<nobr>
+					&nbsp;&nbsp;
+					<a href="http://www.moscow_city.izbirkom.ru/spravochn" style="text-decoration: none;color:#FFFFFF">Справочная информация</a>
+					&nbsp;&nbsp;		
+				</nobr>
+				
+								
+			      
+			</td>
+		</tr>
+	
+		
+<tr>
+	<td align="center" height="20" colspan="2">
+		<nobr><a href="http://www.moscow_city.izbirkom.ru"style="text-decoration: none;color:black">Главная страница</a>	
+	</td>
+</tr></tbody>
+</table>
+	
+
+<table width="100%" cellpadding="0" cellspacing="0" height="80%" style="padding-left: 3px; padding-right: 3px;">
+
+
+	
+	<tr valign="top" height="20px">
+		<td width="100%" align="center" height="20px" valign="top"><!-- history -->
+			<a href=region/moscow_city?action=show&root_a=177409103&vrn=27720001368289&region=77&global=null&type=0&prver=0&pronetvd=null>Московская городская избирательная комиссия</a> &gt; <a href=region/moscow_city?action=show&root_a=177409103&vrn=27720001368289&region=77&global=null&type=0&root=177409103&prver=0&pronetvd=null&tvd=27720001368413>район Кузьминки</a>
+		</td>
+	</tr>
+	
+
+	
+	<tr valign="top" height="20px">
+		<td width="100%" align="center" height="20px" valign="top">
+		
+			<!-- нет отчета по навигации или же это конечный твд == уик -->
+		
+		</td>
+	</tr>
+	
+
+	
+	<tr valign="top" align="left">
+		<td >
+				
+			<a href="javascript:getXls();">Версия для печати</a>
+			<br><br>
+				
+		</td>
+	</tr>
+	
+	<tr valign="top" height="100%">
+		<td valign="top" height="100%">
+			<link href="css/222.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="js/sorter.js"></script>
+<table border="0" cellpadding="3" width="100%" cellspacing="1" bgcolor="white">
+   <tr class="w2">
+      <td bgcolor="#555555" class="headers" align="center"><b>Сводная таблица результатов выборов</b>
+      </td>
+   </tr>
+   <tr class="w2">
+      <td bgcolor="#555555" class="headers" align="center"><b>Выборы Мэра Москвы</b>
+      </td>
+   </tr>
+</table>
+<table width="100%">
+   <tr>
+      <td align="center">
+					Дата голосования:&nbsp; 08.09.2013</td>
+   </tr>
+</table>
+<table border="0" cellpadding="5" cellspacing="1" width="100%" bgcolor="ffffff">
+   <tr style="padding:0;border-spacing:0;height:2px;">
+      <td background="img/pix.gif" colspan="2" style="padding:0;border-spacing:0;height:2px;"></td>
+   </tr>
+   <tr bgcolor="eeeeee">
+      <td valign="top" width="45%"><b>Наименование Избирательной комиссии</b>
+      </td>
+      <td>район Кузьминки</td>
+   </tr>
+   <tr style="padding:0;border-spacing:0;height:2px;">
+      <td background="img/e.gif" colspan="2" style="padding:0;border-spacing:0;height:2px;"></td>
+   </tr>
+</table>
+<table style="width:100%;border-color:#000000" vspace="0" cellpadding="0" cellspacing="0" border="1px">
+   <tr style="height:100%" valign="top" align="left">
+      <td style="height:100%;" valign="top" align="left">
+         <table border="0" bgcolor="#ffffff" cellpadding="2" cellspacing="1" align="left" vspace="0">
+            <tr bgcolor="#FFFFFF">
+               <td style="color:black" align="center" width="200" colspan="2"></td>
+               <td style="color:black" align="center">
+                  <nobr><b>Сумма</b>
+                  </nobr>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>1</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Число избирателей, внесенных в список</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>82137</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>2</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Число бюллетеней, полученных УИК</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>57550</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>3</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Число бюллетеней, выданных в помещении для голосования</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22494</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>4</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Число бюллетеней, выданных вне помещения для голосования</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1274</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>5</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Число погашенных бюллетеней</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>33782</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>6</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Число бюллетеней, содержащихся в переносных ящиках</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1274</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>7</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Число бюллетеней, содержащихся в стационарных ящиках</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22448</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>8</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Число недействительных бюллетеней</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>346</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>9</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Число действительных бюллетеней</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>23376</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>9а</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Число открепительных удостоверений, полученных УИК</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>9б</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Число открепительных удостоверений, выданных УИК до дня голосования</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>9в</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Число избирателей, проголосовавших по открепительным удостоверениям</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>40</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>9г</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Число неиспользованных открепительных удостоверений</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>9д</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Число открепительных удостоверений, выданных ТИК избирателям</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>80</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>9е</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Число утраченных открепительных удостоверений</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>9ж</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Число утраченных бюллетеней</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>9з</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Число бюллетеней, не учтенных при получении</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td style="color:black"></td>
+               <td style="color:black" colspan="2">
+                  <nobr><b>&nbsp;</b>
+                  </nobr>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>10</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Дегтярев Михаил Владимирович</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>745</b>
+                  </nobr><br>3.14%
+                                                    </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>11</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Левичев Николай Владимирович</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>836</b>
+                  </nobr><br>3.52%
+                                                   </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>12</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Мельников Иван Иванович</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2615</b>
+                  </nobr><br>11.02%
+                                                    </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>13</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Митрохин Сергей Сергеевич</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>872</b>
+                  </nobr><br>3.68%
+                                                   </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td width="5%" style="color:black">
+                  <nobr>14</nobr>
+               </td>
+               <td style="color:black" align="left" width="50">
+                  <nobr>Навальный Алексей Анатольевич</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>5703</b>
+                  </nobr><br>24.04%
+                                                    </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td width="5%" style="color:black">
+                  <nobr>15</nobr>
+               </td>
+               <td style="color:black" align="left" width="200">
+                  <nobr>Собянин Сергей Семенович</nobr>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>12605</b>
+                  </nobr><br>53.14%
+                                                   </td>
+            </tr>
+         </table>
+      </td>
+      <td width="90%"><div style="width:100%; bgcolor:white;overflow:scroll"><table border="0" bgcolor="#ffffff" cellpadding="2" cellspacing="1" style="width:100%;overflow:scroll" vspace="0" align="left">
+            <tr bgcolor="#FFFFFF" valign="top">
+               <td style="color:black" align="center">
+                  <nobr>УИК №1345</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1346</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1347</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1348</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1349</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1350</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1351</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1352</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1353</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1354</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1355</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1356</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1357</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1358</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1359</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1360</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1361</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1362</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1363</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1364</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1365</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1366</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1367</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1368</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1369</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1370</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1371</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1372</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1373</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1374</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1375</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1376</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1377</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1378</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1379</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1380</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1381</nobr>
+               </td>
+               <td style="color:black" align="center">
+                  <nobr>УИК №1382</nobr>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>2578</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2491</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1714</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2263</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2369</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2123</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1485</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1808</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2358</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1877</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2407</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1611</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2304</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1721</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2595</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2635</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2401</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2501</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2549</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2513</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2495</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2397</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2376</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1652</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1867</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2232</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2503</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2427</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1704</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1438</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2572</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2541</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2446</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1539</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1923</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1639</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2019</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2064</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>1800</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1750</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1200</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1600</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1650</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1500</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1050</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1250</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1650</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1300</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1700</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1150</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1600</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1200</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1800</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1850</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1700</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1750</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1800</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1750</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1750</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1700</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1650</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1150</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1300</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1550</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1750</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1700</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1200</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1000</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1800</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1800</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1700</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1100</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1350</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1150</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1400</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1450</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>730</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>742</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>389</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>540</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>640</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>598</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>440</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>459</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>652</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>556</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>658</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>464</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>625</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>466</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>724</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>646</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>616</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>675</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>689</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>669</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>775</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>646</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>600</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>546</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>533</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>607</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>710</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>663</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>478</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>414</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>825</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>727</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>573</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>370</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>488</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>445</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>558</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>558</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>71</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>44</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>16</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>39</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>36</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>43</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>55</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>48</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>33</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>48</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>31</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>54</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>65</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>54</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>39</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>50</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>45</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>26</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>31</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>16</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>23</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>27</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>15</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>26</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>32</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>39</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>52</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>999</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>964</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>795</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1021</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>974</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>859</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>588</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>736</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>950</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>711</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>994</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>666</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>944</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>716</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1022</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1139</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1030</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1036</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1061</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1036</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>954</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1028</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1019</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>588</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>746</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>920</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1013</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1022</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>702</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>572</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>957</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1051</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1109</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>704</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>840</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>673</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>803</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>840</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>71</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>44</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>16</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>39</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>36</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>43</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>55</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>48</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>33</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>48</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>31</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>54</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>65</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>54</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>39</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>50</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>45</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>26</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>31</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>16</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>23</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>27</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>15</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>26</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>32</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>39</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>52</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>730</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>708</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>389</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>538</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>640</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>598</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>440</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>459</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>652</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>556</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>657</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>464</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>625</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>465</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>724</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>645</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>616</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>675</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>689</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>669</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>775</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>645</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>600</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>544</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>532</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>607</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>710</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>663</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>478</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>414</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>823</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>727</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>573</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>370</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>488</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>444</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>558</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>558</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>47</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>12</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>6</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>8</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>19</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>8</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>7</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>6</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>10</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>5</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>19</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>5</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>13</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>5</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>5</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>6</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>8</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>9</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>9</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>6</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>15</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>8</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>8</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>8</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>9</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>9</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>7</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>9</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>4</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>5</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>9</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>7</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>9</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>6</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>4</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>4</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>10</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>754</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>740</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>399</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>569</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>657</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>633</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>455</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>508</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>690</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>584</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>686</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>479</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>643</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>478</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>773</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>704</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>662</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>705</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>730</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>708</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>781</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>663</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>623</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>552</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>544</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>621</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>730</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>669</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>494</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>423</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>832</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>742</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>582</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>390</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>506</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>474</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>593</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>600</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>4</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>3</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>5</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>8</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>3</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>4</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>3</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>3</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>7</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>3</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>10</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>3</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>5</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>3</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>1</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>3</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>2</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+               <td align="right" style="color:black">
+                  <nobr><b>0</b>
+                  </nobr><br>
+               </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td style="color:black"><br>
+               </td>
+               <td style="color:black" colspan="2"><br>
+               </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>2.62%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>23</b>
+                  </nobr><br>3.06%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>5.19%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>3.64%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>28</b>
+                  </nobr><br>4.14%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>2.18%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>3.03%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>7</b>
+                  </nobr><br>1.36%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>27</b>
+                  </nobr><br>3.86%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>12</b>
+                  </nobr><br>2.04%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>32</b>
+                  </nobr><br>4.54%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>13</b>
+                  </nobr><br>2.69%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>3.35%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>2.90%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>2.57%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>27</b>
+                  </nobr><br>3.80%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>2.69%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>24</b>
+                  </nobr><br>3.36%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>35</b>
+                  </nobr><br>4.74%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>26</b>
+                  </nobr><br>3.64%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>38</b>
+                  </nobr><br>4.77%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>3.28%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>3.17%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>3.21%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>3.25%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>25</b>
+                  </nobr><br>3.97%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>23</b>
+                  </nobr><br>3.12%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>3.24%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>16</b>
+                  </nobr><br>3.21%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>7</b>
+                  </nobr><br>1.64%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>25</b>
+                  </nobr><br>2.97%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>17</b>
+                  </nobr><br>2.27%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>2.37%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>10</b>
+                  </nobr><br>2.53%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>12</b>
+                  </nobr><br>2.35%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>9</b>
+                  </nobr><br>1.89%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>15</b>
+                  </nobr><br>2.51%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>15</b>
+                  </nobr><br>2.46%
+		                                        </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>31</b>
+                  </nobr><br>3.87%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>2.66%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>25</b>
+                  </nobr><br>6.17%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>34</b>
+                  </nobr><br>5.89%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>31</b>
+                  </nobr><br>4.59%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>24</b>
+                  </nobr><br>3.74%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>16</b>
+                  </nobr><br>3.46%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>24</b>
+                  </nobr><br>4.67%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>17</b>
+                  </nobr><br>2.43%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>3.06%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>2.84%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>19</b>
+                  </nobr><br>3.93%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>26</b>
+                  </nobr><br>3.96%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>13</b>
+                  </nobr><br>2.69%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>23</b>
+                  </nobr><br>2.96%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>24</b>
+                  </nobr><br>3.38%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>2.99%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>24</b>
+                  </nobr><br>3.36%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>34</b>
+                  </nobr><br>4.60%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>35</b>
+                  </nobr><br>4.90%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>31</b>
+                  </nobr><br>3.89%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>24</b>
+                  </nobr><br>3.58%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>13</b>
+                  </nobr><br>2.06%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>3.75%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>3.80%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>30</b>
+                  </nobr><br>4.76%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>25</b>
+                  </nobr><br>3.39%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>2.95%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>17</b>
+                  </nobr><br>3.41%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>11</b>
+                  </nobr><br>2.57%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>1.66%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>24</b>
+                  </nobr><br>3.20%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>25</b>
+                  </nobr><br>4.23%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>15</b>
+                  </nobr><br>3.79%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>16</b>
+                  </nobr><br>3.14%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>3.78%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>15</b>
+                  </nobr><br>2.51%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>2.95%
+		                                        </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>87</b>
+                  </nobr><br>10.86%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>69</b>
+                  </nobr><br>9.18%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>52</b>
+                  </nobr><br>12.84%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>68</b>
+                  </nobr><br>11.79%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>113</b>
+                  </nobr><br>16.72%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>65</b>
+                  </nobr><br>10.14%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>42</b>
+                  </nobr><br>9.09%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>47</b>
+                  </nobr><br>9.14%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>78</b>
+                  </nobr><br>11.14%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>60</b>
+                  </nobr><br>10.19%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>61</b>
+                  </nobr><br>8.65%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>53</b>
+                  </nobr><br>10.95%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>80</b>
+                  </nobr><br>12.20%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>65</b>
+                  </nobr><br>13.46%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>113</b>
+                  </nobr><br>14.52%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>82</b>
+                  </nobr><br>11.55%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>65</b>
+                  </nobr><br>9.70%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>87</b>
+                  </nobr><br>12.18%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>72</b>
+                  </nobr><br>9.74%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>101</b>
+                  </nobr><br>14.15%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>81</b>
+                  </nobr><br>10.18%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>83</b>
+                  </nobr><br>12.37%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>74</b>
+                  </nobr><br>11.73%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>63</b>
+                  </nobr><br>11.25%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>50</b>
+                  </nobr><br>9.04%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>66</b>
+                  </nobr><br>10.48%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>78</b>
+                  </nobr><br>10.58%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>72</b>
+                  </nobr><br>10.62%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>36</b>
+                  </nobr><br>7.23%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>57</b>
+                  </nobr><br>13.32%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>82</b>
+                  </nobr><br>9.75%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>64</b>
+                  </nobr><br>8.54%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>68</b>
+                  </nobr><br>11.51%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>32</b>
+                  </nobr><br>8.08%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>44</b>
+                  </nobr><br>8.63%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>58</b>
+                  </nobr><br>12.18%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>85</b>
+                  </nobr><br>14.24%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>62</b>
+                  </nobr><br>10.16%
+		                                        </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>23</b>
+                  </nobr><br>2.87%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>42</b>
+                  </nobr><br>5.59%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>7</b>
+                  </nobr><br>1.73%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>32</b>
+                  </nobr><br>5.55%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>27</b>
+                  </nobr><br>3.99%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>25</b>
+                  </nobr><br>3.90%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>17</b>
+                  </nobr><br>3.68%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>16</b>
+                  </nobr><br>3.11%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>2.86%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>31</b>
+                  </nobr><br>5.26%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>26</b>
+                  </nobr><br>3.69%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>4.55%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>32</b>
+                  </nobr><br>4.88%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>2.90%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>36</b>
+                  </nobr><br>4.63%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>25</b>
+                  </nobr><br>3.52%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>32</b>
+                  </nobr><br>4.78%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>40</b>
+                  </nobr><br>5.60%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>37</b>
+                  </nobr><br>5.01%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>28</b>
+                  </nobr><br>3.92%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>2.76%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>3.13%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>17</b>
+                  </nobr><br>2.69%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>13</b>
+                  </nobr><br>2.32%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>21</b>
+                  </nobr><br>3.80%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>25</b>
+                  </nobr><br>3.97%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>28</b>
+                  </nobr><br>3.80%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>20</b>
+                  </nobr><br>2.95%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>18</b>
+                  </nobr><br>3.61%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>3.27%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>25</b>
+                  </nobr><br>2.97%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>28</b>
+                  </nobr><br>3.74%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>23</b>
+                  </nobr><br>3.89%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>10</b>
+                  </nobr><br>2.53%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>14</b>
+                  </nobr><br>2.75%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>10</b>
+                  </nobr><br>2.10%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>9</b>
+                  </nobr><br>1.51%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>22</b>
+                  </nobr><br>3.61%
+		                                        </td>
+            </tr>
+            <tr bgcolor="#CCCCCC">
+               <td align="right" style="color:black">
+                  <nobr><b>228</b>
+                  </nobr><br>28.46%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>175</b>
+                  </nobr><br>23.27%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>117</b>
+                  </nobr><br>28.89%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>172</b>
+                  </nobr><br>29.81%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>166</b>
+                  </nobr><br>24.56%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>162</b>
+                  </nobr><br>25.27%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>86</b>
+                  </nobr><br>18.61%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>100</b>
+                  </nobr><br>19.46%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>175</b>
+                  </nobr><br>25.00%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>169</b>
+                  </nobr><br>28.69%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>181</b>
+                  </nobr><br>25.67%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>132</b>
+                  </nobr><br>27.27%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>139</b>
+                  </nobr><br>21.19%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>119</b>
+                  </nobr><br>24.64%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>176</b>
+                  </nobr><br>22.62%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>142</b>
+                  </nobr><br>20.00%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>159</b>
+                  </nobr><br>23.73%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>143</b>
+                  </nobr><br>20.03%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>148</b>
+                  </nobr><br>20.03%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>134</b>
+                  </nobr><br>18.77%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>215</b>
+                  </nobr><br>27.01%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>143</b>
+                  </nobr><br>21.31%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>140</b>
+                  </nobr><br>22.19%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>164</b>
+                  </nobr><br>29.29%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>130</b>
+                  </nobr><br>23.51%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>176</b>
+                  </nobr><br>27.94%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>150</b>
+                  </nobr><br>20.35%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>175</b>
+                  </nobr><br>25.81%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>117</b>
+                  </nobr><br>23.49%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>121</b>
+                  </nobr><br>28.27%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>233</b>
+                  </nobr><br>27.71%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>198</b>
+                  </nobr><br>26.44%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>100</b>
+                  </nobr><br>16.92%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>95</b>
+                  </nobr><br>23.99%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>136</b>
+                  </nobr><br>26.67%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>113</b>
+                  </nobr><br>23.74%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>123</b>
+                  </nobr><br>20.60%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>151</b>
+                  </nobr><br>24.75%
+		                                        </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+               <td align="right" style="color:black">
+                  <nobr><b>364</b>
+                  </nobr><br>45.44%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>411</b>
+                  </nobr><br>54.65%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>177</b>
+                  </nobr><br>43.70%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>242</b>
+                  </nobr><br>41.94%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>292</b>
+                  </nobr><br>43.20%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>343</b>
+                  </nobr><br>53.51%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>280</b>
+                  </nobr><br>60.61%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>314</b>
+                  </nobr><br>61.09%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>373</b>
+                  </nobr><br>53.29%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>294</b>
+                  </nobr><br>49.92%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>366</b>
+                  </nobr><br>51.91%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>240</b>
+                  </nobr><br>49.59%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>344</b>
+                  </nobr><br>52.44%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>253</b>
+                  </nobr><br>52.38%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>405</b>
+                  </nobr><br>52.06%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>404</b>
+                  </nobr><br>56.90%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>368</b>
+                  </nobr><br>54.93%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>387</b>
+                  </nobr><br>54.20%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>404</b>
+                  </nobr><br>54.67%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>384</b>
+                  </nobr><br>53.78%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>394</b>
+                  </nobr><br>49.50%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>370</b>
+                  </nobr><br>55.14%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>359</b>
+                  </nobr><br>56.89%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>273</b>
+                  </nobr><br>48.75%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>304</b>
+                  </nobr><br>54.97%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>299</b>
+                  </nobr><br>47.46%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>426</b>
+                  </nobr><br>57.80%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>360</b>
+                  </nobr><br>53.10%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>290</b>
+                  </nobr><br>58.23%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>213</b>
+                  </nobr><br>49.77%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>453</b>
+                  </nobr><br>53.86%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>411</b>
+                  </nobr><br>54.87%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>352</b>
+                  </nobr><br>59.56%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>228</b>
+                  </nobr><br>57.58%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>284</b>
+                  </nobr><br>55.69%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>266</b>
+                  </nobr><br>55.88%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>346</b>
+                  </nobr><br>57.96%
+		                                        </td>
+               <td align="right" style="color:black">
+                  <nobr><b>332</b>
+                  </nobr><br>54.43%
+		                                        </td>
+            </tr>
+         </table><br></div></td>
+   </tr>
+</table>
+		</td>
+	</tr>
+
+</table>
+<br/>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26136728-1']);
+  _gaq.push(['_setDomainName', 'izbirkom.ru']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
