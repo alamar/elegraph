@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'mechanize'
 
-client = WWW::Mechanize.new
+client = Mechanize.new
 ARGV.each do |name|
     titles = []
     file = File.open name, "rb"
