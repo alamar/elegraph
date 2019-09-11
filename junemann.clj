@@ -1,7 +1,7 @@
 (ns ru.lj.alamar.elegraph
   (:require spiral data image util))
 
-(def данные (take 5000 (read-data "data/junemann-2019-09-08/data.csv")))
+(def данные (read-data "data/junemann-2019-09-08/data.csv"))
 (def заголовки (first данные))
 (def уики (rest данные))
 
@@ -19,7 +19,7 @@
 (def окно-явки (окно (fn [x] (Math/pow 20 (- 1 x))) (map явка уики)))
 (def окно-ер (окно (fn [x] (- 1 (Math/pow 10 (- 1 x)))) (map доля-ер уики)))
 
-; 60x80 cm at 300 dpi
+; 60x80
 (def ширина 600)
 (def высота 800)
 
@@ -56,7 +56,7 @@
 (def шаблон (spiral))
 
 (def цвета-фракций [
-            (цвет 0xAA 0x55 0) ;; Викулин
+            (цвет 0xAA 0x55 0)    ;; Викулин
             (цвет 0xFF 0xFF 0x30) ;; Галибин
             (цвет 0xFA 0x00 0x57) ;; Жуковский
             (цвет 0x14 0x0D 0x8E) ;; Русецкая
@@ -71,10 +71,6 @@
 
 (defn сортировать-фракции [уик]
   (reverse (sort-by first (упорядочить-фракции уик))))
-
-; (doseq [уик уики]
-;   (println (first уик) "явка" (float (явка уик)) "доля Собянина" (float (доля-ер уик))
-;     "окно" (float (window-weight (явка-для-окна уик) окно-явки)) (float (window-weight (доля-ер уик) окно-ер))))
 
 (полоска холст высота-графика высота-полоски
   (for [уик уики]

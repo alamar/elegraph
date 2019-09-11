@@ -1,0 +1,242 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<base href="http://www.st-petersburg.vybory.izbirkom.ru/">
+<link href="/css/report.css" rel="stylesheet" type="text/css" />
+<title>Сведения о проводящихся выборах и референдумах</title>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+<script type="text/javascript">
+	
+		function open_close(group_id)
+		{			
+			folder = document.getElementById(group_id + "1");
+			i = 1;
+			while (folder != null) {
+				if (folder.className == 'trFinrepHidden') {
+					folder.className = 'trFinrep';
+				} else {
+					folder.className = 'trFinrepHidden';
+				}
+				i++;		
+				folder = document.getElementById(group_id + "" + i);		
+			}		
+		}
+	
+</script>
+
+</head>
+
+<body text="#000000" link="#0000ff" vlink="#0000ff" alink="#ff0000" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" bottommargin="0">
+
+
+<table cellpadding="0" cellspacing="0" width="100%" border="0">
+	<tr>
+		<td align="center" width="100%">
+			
+		</td>
+	</tr>
+</table>
+
+
+		
+
+
+
+
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="111px" width="100%">
+	<tbody>
+		<tr bgcolor="ffffff">
+			<!--<td align="center" background="header/78/head.png" valign="top" width="1200px">-->
+			<td align="center">
+				<a href="http://www.st-petersburg.izbirkom.ru" border=0><img border="0" src="header/78/spbik.jpg" border="0" ></a>
+
+			</td>
+		</tr>
+		<tr style="padding:0;border-spacing:0;height:1px;">
+			<td background="header/78/line_hor.gif" colspan="2" style="padding:0;border-spacing:0;height:1px;"></td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#0f10a8" height="20" colspan="2">
+				
+
+<nobr>
+	&nbsp;&nbsp; 
+	<a href="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=ik" style="text-decoration: none; color: #FFFFFF">Избирательные комиссии</a>
+	&nbsp;&nbsp;
+</nobr>
+<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+<nobr>
+	&nbsp;&nbsp;
+	<a href="http://www.st-petersburg.vybory.izbirkom.ru/st-petersburg/ik_r" style="text-decoration: none; color: #FFFFFF">Резерв составов участковых комиссий</a>
+	&nbsp;&nbsp;
+</nobr>
+<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+
+<nobr>
+	&nbsp;&nbsp; 
+	<a href="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg" style="text-decoration: none; color: #FFFFFF">Выборы и референдумы</a>
+	&nbsp;&nbsp;
+</nobr>
+<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+
+<nobr>
+	&nbsp;&nbsp;
+	<a href="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=npa" style="text-decoration: none; color: #FFFFFF">Нормативная база</a>
+	&nbsp;&nbsp;
+</nobr>
+				
+				
+
+
+			</td>
+		</tr>
+	
+		
+<tr>
+	<td align="center" height="20" colspan="2">
+		<nobr><a href="http://www.st-petersburg.izbirkom.ru" style="text-decoration: none;color:black">Главная страница</a>	
+	</td>
+</tr></tbody>
+</table>
+
+
+
+
+<table width="100%" cellpadding="0" cellspacing="0" height="80%" style="padding-left: 3px; padding-right: 3px;">
+	
+		<tr valign="top" height="20px">
+			<td width="100%" align="center" height="20px" valign="top"><!-- history -->
+				<a href="region/st-petersburg?action=show&root_a=178402012&vrn=27820001217413&region=78&global=null&type=0&sub_region=78&prver=0&pronetvd=null">Санкт-Петербургская избирательная комиссия</a> &gt; <a href="region/st-petersburg?action=show&root_a=178402012&vrn=27820001217413&region=78&global=null&type=0&sub_region=78&root=178402012&prver=0&pronetvd=null&tvd=27820001217425">Территориальная избирательная комиссия №7</a>
+			</td>
+		</tr>
+	
+		<tr valign="top" height="20px">
+			<td width="100%" align="center" height="20px" valign="top">
+			
+				<form name="go_reg">Нижестоящие избирательные комиссии:  <select name="gs"><option val="">---</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020001&amp;tvd=4784020282338&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282338">633 УИК №633</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020002&amp;tvd=4784020282339&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282339">634 УИК №634</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020003&amp;tvd=4784020282340&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282340">635 УИК №635</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020004&amp;tvd=4784020282341&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282341">636 УИК №636</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020005&amp;tvd=4784020282342&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282342">637 УИК №637</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020006&amp;tvd=4784020282343&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282343">638 УИК №638</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020007&amp;tvd=4784020282344&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282344">639 УИК №639</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020008&amp;tvd=4784020282345&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282345">640 УИК №640</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020009&amp;tvd=4784020282346&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282346">641 УИК №641</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020010&amp;tvd=4784020282347&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282347">642 УИК №642</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020011&amp;tvd=4784020282348&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282348">643 УИК №643</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020012&amp;tvd=4784020282349&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282349">644 УИК №644</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020013&amp;tvd=4784020282351&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282351">757 УИК №757</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020014&amp;tvd=4784020282353&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282353">758 УИК №758</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020015&amp;tvd=4784020282354&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282354">759 УИК №759</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020016&amp;tvd=4784020282355&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282355">760 УИК №760</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020017&amp;tvd=4784020282356&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282356">761 УИК №761</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020018&amp;tvd=4784020282357&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282357">762 УИК №762</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020019&amp;tvd=4784020282358&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282358">763 УИК №763</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020020&amp;tvd=4784020282359&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282359">764 УИК №764</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020021&amp;tvd=4784020282360&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282360">765 УИК №765</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020022&amp;tvd=4784020282361&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282361">766 УИК №766</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020023&amp;tvd=4784020282362&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282362">767 УИК №767</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020024&amp;tvd=4784020282363&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282363">768 УИК №768</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020025&amp;tvd=4784020282364&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282364">769 УИК №769</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020026&amp;tvd=4784020282365&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282365">770 УИК №770</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020027&amp;tvd=4784020282366&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282366">771 УИК №771</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020028&amp;tvd=4784020282367&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282367">772 УИК №772</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020029&amp;tvd=4784020282368&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282368">773 УИК №773</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020030&amp;tvd=4784020282369&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282369">774 УИК №774</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020031&amp;tvd=4784020282370&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282370">775 УИК №775</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020032&amp;tvd=4784020282371&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282371">776 УИК №776</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020033&amp;tvd=4784020282372&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282372">777 УИК №777</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020034&amp;tvd=4784020282373&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282373">778 УИК №778</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020035&amp;tvd=4784020282374&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282374">779 УИК №779</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020036&amp;tvd=4784020282375&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282375">780 УИК №780</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020037&amp;tvd=4784020282376&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282376">781 УИК №781</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020038&amp;tvd=4784020282377&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282377">782 УИК №782</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020039&amp;tvd=4784020282378&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282378">783 УИК №783</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020040&amp;tvd=4784020282379&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282379">784 УИК №784</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020041&amp;tvd=4784020282380&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282380">785 УИК №785</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020042&amp;tvd=4784020282381&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282381">786 УИК №786</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020043&amp;tvd=4784020282383&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282383">787 УИК №787</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020044&amp;tvd=4784020282384&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282384">788 УИК №788</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020045&amp;tvd=4784020282385&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282385">789 УИК №789</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020046&amp;tvd=4784020282386&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282386">790 УИК №790</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020047&amp;tvd=4784020282387&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282387">791 УИК №791</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020048&amp;tvd=4784020282388&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282388">792 УИК №792</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020049&amp;tvd=4784020282389&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282389">793 УИК №793</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020050&amp;tvd=4784020282390&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282390">794 УИК №794</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020051&amp;tvd=4784020282391&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282391">795 УИК №795</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020052&amp;tvd=4784020282392&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282392">796 УИК №796</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020053&amp;tvd=4784020282393&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282393">797 УИК №797</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020054&amp;tvd=4784020282394&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282394">798 УИК №798</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020055&amp;tvd=4784020282395&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282395">799 УИК №799</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020056&amp;tvd=4784020282396&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282396">800 УИК №800</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020057&amp;tvd=4784020282397&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282397">801 УИК №801</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020058&amp;tvd=4784020282398&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282398">802 УИК №802</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020059&amp;tvd=4784020282399&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282399">803 УИК №803</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020060&amp;tvd=4784020282400&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282400">804 УИК №804</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020061&amp;tvd=4784020282401&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282401">805 УИК №805</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020062&amp;tvd=4784020282402&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282402">806 УИК №806</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020063&amp;tvd=4784020282403&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282403">807 УИК №807</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020064&amp;tvd=4784020282404&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282404">808 УИК №808</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020065&amp;tvd=4784020282405&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282405">809 УИК №809</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020066&amp;tvd=4784020282406&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282406">810 УИК №810</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020067&amp;tvd=4784020282407&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282407">811 УИК №811</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020068&amp;tvd=4784020282408&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282408">812 УИК №812</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020069&amp;tvd=4784020282409&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282409">813 УИК №813</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020070&amp;tvd=4784020282410&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020282410">814 УИК №814</option><option value="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=show&amp;root=784020071&amp;tvd=4784020309714&amp;vrn=27820001217413&amp;prver=0&amp;pronetvd=null&amp;region=78&amp;sub_region=78&amp;type=0&amp;vibid=4784020309714">815 УИК №815</option></select>  <input type="Button" name="go" value="Перейти" onClick="if(this.form.gs.value!='' && this.form.gs.value!='---')self.location=this.form.gs.value"></form>
+
+			
+			</td>
+		</tr>
+	
+	<tr valign="top" height="100%">
+		<td valign="top" height="100%">
+			<link href="css/0.css" rel="stylesheet" type="text/css" xmlns:exsl="http://exslt.org/common" xmlns="http://www.w3.org/TR/xhtml1/strict"><table border="0" cellpadding="3" width="100%" cellspacing="1" bgcolor="white">
+<tr class="w2" align="center">
+<td bgcolor="#555555" class="headers"><b>Сведения о выборах</b></td>
+</tr>
+<tr class="w2" align="center">
+<td bgcolor="#555555" class="headers"><b>Выборы высшего должностного лица Санкт-Петербурга - Губернатора Санкт-Петербурга</b></td>
+</tr>
+</table><table border="0" cellpadding="5" cellspacing="1" width="100%" bgcolor="white">
+<tr>
+<td valign="top" width="45%"><b>Наименование комиссии</b></td><td>Территориальная избирательная комиссия №7</td>
+</tr>
+<tr>
+<td><b>Дата официального опубликования (публикации) решения о назначении выборов/референдума</b></td><td>31.05.2019</td>
+</tr>
+<tr>
+<td><b>Дата голосования</b></td><td>08.09.2019</td>
+</tr>
+</table><table style="border-top: 1px outset rgb(0, 0, 0)" bgcolor="#ffffff" border="0" cellpadding="2" cellspacing="1" width="100%">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td class="tdCategory"><b>СТАНДАРТНЫЕ ОТЧЕТЫ</b></td>
+</tr>
+<tr class="trReport">
+<td class="tdReport"><nobr>
+					&nbsp;&nbsp;<img src="img/form.gif"><a href="http://www.st-petersburg.vybory.izbirkom.ru/region/region/st-petersburg?action=show&amp;root=178402012&amp;tvd=27820001217425&amp;vrn=27820001217413&amp;region=78&amp;global=&amp;sub_region=78&amp;prver=0&amp;pronetvd=null&amp;vibid=27820001217413&amp;type=221">Сведения о кандидатах</a></nobr></td>
+</tr>
+<tr class="trReport">
+<td class="tdReport"><nobr>
+					&nbsp;&nbsp;<img src="img/form.gif"><a href="http://www.st-petersburg.vybory.izbirkom.ru/region/region/st-petersburg?action=show&amp;root=178402012&amp;tvd=27820001217425&amp;vrn=27820001217413&amp;region=78&amp;global=&amp;sub_region=78&amp;prver=0&amp;pronetvd=null&amp;vibid=27820001217425&amp;type=469">Информация о числе избирателей, включенных в список избирателей на основании поданных заявлений о включении в список избирателей по месту нахождения</a></nobr></td>
+</tr>
+<tr class="trReport">
+<td class="tdReport"><nobr>
+					&nbsp;&nbsp;<img src="img/form.gif"><a href="http://www.st-petersburg.vybory.izbirkom.ru/region/region/st-petersburg?action=show&amp;root=178402012&amp;tvd=27820001217425&amp;vrn=27820001217413&amp;region=78&amp;global=&amp;sub_region=78&amp;prver=0&amp;pronetvd=null&amp;vibid=27820001217425&amp;type=475">Информация о числе избирателей, включенных в Реестр избирателей, подлежащих исключению из списка избирателей</a></nobr></td>
+</tr>
+<tr>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+</tr>
+<tr>
+<td class="tdCategory"><b>ХОД ГОЛОСОВАНИЯ</b></td>
+</tr>
+<tr class="trReport">
+<td class="tdReport"><nobr>
+					&nbsp;&nbsp;<img src="img/form.gif"><a href="http://www.st-petersburg.vybory.izbirkom.ru/region/region/st-petersburg?action=show&amp;root=178402012&amp;tvd=27820001217425&amp;vrn=27820001217413&amp;region=78&amp;global=&amp;sub_region=78&amp;prver=0&amp;pronetvd=null&amp;vibid=27820001217425&amp;type=454">Данные об открытии помещений для голосования и предварительные сведения об участии избирателей в голосовании</a></nobr></td>
+</tr>
+<tr>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+</tr>
+<tr>
+<td class="tdCategory"><b>РЕЗУЛЬТАТЫ ВЫБОРОВ</b></td>
+</tr>
+<tr class="trReport">
+<td class="tdReport"><nobr>
+					&nbsp;&nbsp;<img src="img/form.gif"><a href="http://www.st-petersburg.vybory.izbirkom.ru/region/region/st-petersburg?action=show&amp;root=178402012&amp;tvd=27820001217425&amp;vrn=27820001217413&amp;region=78&amp;global=&amp;sub_region=78&amp;prver=0&amp;pronetvd=null&amp;vibid=27820001217425&amp;type=234">Результаты выборов</a></nobr></td>
+</tr>
+<tr class="trReport">
+<td class="tdReport"><nobr>
+					&nbsp;&nbsp;<img src="img/form.gif"><a href="http://www.st-petersburg.vybory.izbirkom.ru/region/region/st-petersburg?action=show&amp;root=178402012&amp;tvd=27820001217425&amp;vrn=27820001217413&amp;region=78&amp;global=&amp;sub_region=78&amp;prver=0&amp;pronetvd=null&amp;vibid=27820001217425&amp;type=222">Сводная таблица результатов выборов</a></nobr></td>
+</tr>
+<tr>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"></td>
+</tr>
+<tr>
+<td class="tdCategory"><b>РЕЗУЛЬТАТЫ ВЫБОРОВ НА ЦИФРОВЫХ ИЗБИРАТЕЛЬНЫХ УЧАСТКАХ</b></td>
+</tr>
+<tr class="trReport">
+<td class="tdReport"><nobr>
+					&nbsp;&nbsp;<img src="img/form.gif"><a href="http://www.st-petersburg.vybory.izbirkom.ru/region/region/st-petersburg?action=show&amp;root=178402012&amp;tvd=27820001217425&amp;vrn=27820001217413&amp;region=78&amp;global=&amp;sub_region=78&amp;prver=0&amp;pronetvd=null&amp;vibid=27820001217425&amp;type=502">Результаты выборов</a></nobr></td>
+</tr>
+</tbody>
+</table>
+
+		</td>
+	</tr>
+</table>
+
+<br/>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26136728-1']);
+  _gaq.push(['_setDomainName', 'izbirkom.ru']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

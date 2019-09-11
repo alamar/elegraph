@@ -1,0 +1,2496 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<base href="http://www.st-petersburg.vybory.izbirkom.ru/">
+<link href="/css/report.css" rel="stylesheet" type="text/css" />
+<title>Сведения о проводящихся выборах и референдумах</title>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+
+<script type="text/javascript">
+	
+	var st1 = null; // переменная, хранящая ссылку на SortableTable, !=null для сортируемых таблиц
+
+	function getXls() {
+		var sortorder = "0";
+		if ((st1 != null)&&(st1.sortDesc != null)) {
+			if (st1.sortDesc) {
+				sortorder = "1";
+			} else {
+				sortorder = "-1";
+			}
+		}
+
+		window.location.assign("http://www.st-petersburg.vybory.izbirkom.ru/servlet/ExcelReportVersion?"+
+								"region=78&"+
+								"sub_region=78&"+
+								"root=178401012&"+
+						
+								"global=&"+
+								"vrn=27820001217413&"+
+								"tvd=27820001217437&"+
+								"type=222&"+
+								"vibid=27820001217437&"+
+								"condition=&"+
+								"action=show&"+
+								"version=null&"+
+								"prver=0&"+
+								"sortorder="+sortorder);
+	}
+	
+</script>
+
+</head>
+
+<body text="#000000" link="#0000ff" vlink="#0000ff" alink="#ff0000" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" bottommargin="0">
+
+
+<table cellpadding="0" cellspacing="0" width="100%" border="0">
+	<tr>
+		<td align="center" width="100%">
+			
+		</td>
+	</tr>
+</table>
+
+
+		
+
+
+
+
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="111px" width="100%">
+	<tbody>
+		<tr bgcolor="ffffff">
+			<!--<td align="center" background="header/78/head.png" valign="top" width="1200px">-->
+			<td align="center">
+				<a href="http://www.st-petersburg.izbirkom.ru" border=0><img border="0" src="header/78/spbik.jpg" border="0" ></a>
+
+			</td>
+		</tr>
+		<tr style="padding:0;border-spacing:0;height:1px;">
+			<td background="header/78/line_hor.gif" colspan="2" style="padding:0;border-spacing:0;height:1px;"></td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#0f10a8" height="20" colspan="2">
+				
+
+<nobr>
+	&nbsp;&nbsp; 
+	<a href="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=ik" style="text-decoration: none; color: #FFFFFF">Избирательные комиссии</a>
+	&nbsp;&nbsp;
+</nobr>
+<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+<nobr>
+	&nbsp;&nbsp;
+	<a href="http://www.st-petersburg.vybory.izbirkom.ru/st-petersburg/ik_r" style="text-decoration: none; color: #FFFFFF">Резерв составов участковых комиссий</a>
+	&nbsp;&nbsp;
+</nobr>
+<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+
+<nobr>
+	&nbsp;&nbsp; 
+	<a href="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg" style="text-decoration: none; color: #FFFFFF">Выборы и референдумы</a>
+	&nbsp;&nbsp;
+</nobr>
+<font color="#ffffff">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
+
+<nobr>
+	&nbsp;&nbsp;
+	<a href="http://www.st-petersburg.vybory.izbirkom.ru/region/st-petersburg?action=npa" style="text-decoration: none; color: #FFFFFF">Нормативная база</a>
+	&nbsp;&nbsp;
+</nobr>
+				
+				
+
+
+			</td>
+		</tr>
+	
+		
+<tr>
+	<td align="center" height="20" colspan="2">
+		<nobr><a href="http://www.st-petersburg.izbirkom.ru" style="text-decoration: none;color:black">Главная страница</a>	
+	</td>
+</tr></tbody>
+</table>
+
+
+
+
+<table width="100%" cellpadding="0" cellspacing="0" height="80%" style="padding-left: 3px; padding-right: 3px;">
+	
+		<tr valign="top" height="20px">
+			<td width="100%" align="center" height="20px" valign="top"><!-- history -->
+				<a href="region/st-petersburg?action=show&root_a=178401012&vrn=27820001217413&region=78&global=&type=0&sub_region=78&prver=0&pronetvd=null">Санкт-Петербургская избирательная комиссия</a> &gt; <a href="region/st-petersburg?action=show&root_a=178401012&vrn=27820001217413&region=78&global=&type=0&sub_region=78&root=178401012&prver=0&pronetvd=null&tvd=27820001217437">Территориальная избирательная комиссия №19</a>
+			</td>
+		</tr>
+	
+		<tr valign="top" height="20px">
+			<td width="100%" align="center" height="20px" valign="top">
+			
+				<!-- нет отчета по навигации или же это конечный твд == уик -->
+			
+			</td>
+		</tr>
+	
+		<tr valign="top" align="left">
+			<td >
+				<a href="javascript:getXls();">Версия для печати</a>
+				<br><br>
+			</td>
+		</tr>
+	
+	<tr valign="top" height="100%">
+		<td valign="top" height="100%">
+			<link href="css/222.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="js/sorter.js"></script><table border="0" cellpadding="3" width="100%" cellspacing="1" bgcolor="white">
+<tr class="w2">
+<td bgcolor="#555555" class="headers" align="center"><b>Сводная таблица результатов выборов</b></td>
+</tr>
+<tr class="w2">
+<td bgcolor="#555555" class="headers" align="center"><b>Выборы высшего должностного лица Санкт-Петербурга - Губернатора Санкт-Петербурга</b></td>
+</tr>
+</table><table width="100%">
+<tr>
+<td align="center">
+					Дата голосования:&nbsp; 08.09.2019</td>
+</tr>
+</table><table border="0" cellpadding="5" cellspacing="1" width="100%" bgcolor="ffffff">
+<tr style="padding:0;border-spacing:0;height:2px;">
+<td background="img/e.gif" colspan="2" style="padding:0;border-spacing:0;height:2px;"></td>
+</tr>
+<tr bgcolor="eeeeee">
+<td valign="top" width="45%"><b>Наименование избирательной комиссии</b></td><td>Территориальная избирательная комиссия №19</td>
+</tr>
+<tr style="padding:0;border-spacing:0;height:2px;">
+<td background="img/e.gif" colspan="2" style="padding:0;border-spacing:0;height:2px;"></td>
+</tr>
+</table><table style="width:100%;border-color:#000000" vspace="0" cellpadding="0" cellspacing="0" border="1px">
+<tr style="height:100%" valign="top" align="left">
+<td style="height:100%;" valign="top" align="left">
+<table border="0" bgcolor="#ffffff" cellpadding="2" cellspacing="1" align="left" vspace="0">
+<tr bgcolor="#FFFFFF">
+<td style="color:black" align="center" width="200" colspan="2"></td><td style="color:black" align="center"><nobr><b>Сумма</b></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>1</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирателей, внесенных в список избирателей на момент окончания голосования</nobr></td><td align="right" style="color:black"><nobr><b>143014</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>2</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, полученных участковой избирательной комиссией</nobr></td><td align="right" style="color:black"><nobr><b>123947</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>3</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, выданных избирателям в помещении для голосования в день голосования</nobr></td><td align="right" style="color:black"><nobr><b>51433</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>4</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, выданных избирателям, проголосовавшим вне помещения для голосования</nobr></td><td align="right" style="color:black"><nobr><b>2644</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>5</nobr></td><td style="color:black" align="left" width="50"><nobr>Число погашенных избирательных бюллетеней</nobr></td><td align="right" style="color:black"><nobr><b>69869</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>6</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, содержащихся в переносных ящиках для голосования</nobr></td><td align="right" style="color:black"><nobr><b>2644</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>7</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, содержащихся в стационарных ящиках для голосования</nobr></td><td align="right" style="color:black"><nobr><b>51223</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>8</nobr></td><td style="color:black" align="left" width="50"><nobr>Число недействительных избирательных бюллетеней</nobr></td><td align="right" style="color:black"><nobr><b>579</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>9</nobr></td><td style="color:black" align="left" width="50"><nobr>Число действительных избирательных бюллетеней</nobr></td><td align="right" style="color:black"><nobr><b>53288</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>10</nobr></td><td style="color:black" align="left" width="50"><nobr>Число утраченных избирательных бюллетеней</nobr></td><td align="right" style="color:black"><nobr><b>1</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>11</nobr></td><td style="color:black" align="left" width="50"><nobr>Число избирательных бюллетеней, не учтенных при получении</nobr></td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td style="color:black"></td><td style="color:black" colspan="2"><nobr><b>&nbsp;</b></nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>12</nobr></td><td style="color:black" align="left" width="50"><nobr>Амосов Михаил Иванович</nobr></td><td align="right" style="color:black"><nobr><b>8379</b></nobr>
+<br>15.55%
+                                                    </td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="5%" style="color:black"><nobr>13</nobr></td><td style="color:black" align="left" width="50"><nobr>Беглов Александр Дмитриевич</nobr></td><td align="right" style="color:black"><nobr><b>37091</b></nobr>
+<br>68.86%
+                                                    </td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td width="5%" style="color:black"><nobr>14</nobr></td><td style="color:black" align="left" width="50"><nobr>Тихонова Надежда Геннадьевна</nobr></td><td align="right" style="color:black"><nobr><b>7818</b></nobr>
+<br>14.51%
+                                                    </td>
+</tr>
+</table>
+</td><td width="90%"><div style="width:100%; bgcolor:white;overflow:scroll"><table border="0" bgcolor="#ffffff" cellpadding="2" cellspacing="1" style="width:100%;overflow:scroll" vspace="0" align="left">
+<tr bgcolor="#FFFFFF" valign="top">
+<td style="color:black" align="center"><nobr>УИК №1279</nobr></td><td style="color:black" align="center"><nobr>УИК №1280</nobr></td><td style="color:black" align="center"><nobr>УИК №1281</nobr></td><td style="color:black" align="center"><nobr>УИК №1282</nobr></td><td style="color:black" align="center"><nobr>УИК №1283</nobr></td><td style="color:black" align="center"><nobr>УИК №1284</nobr></td><td style="color:black" align="center"><nobr>УИК №1285</nobr></td><td style="color:black" align="center"><nobr>УИК №1286</nobr></td><td style="color:black" align="center"><nobr>УИК №1287</nobr></td><td style="color:black" align="center"><nobr>УИК №1288</nobr></td><td style="color:black" align="center"><nobr>УИК №1289</nobr></td><td style="color:black" align="center"><nobr>УИК №1290</nobr></td><td style="color:black" align="center"><nobr>УИК №1291</nobr></td><td style="color:black" align="center"><nobr>УИК №1292</nobr></td><td style="color:black" align="center"><nobr>УИК №1293</nobr></td><td style="color:black" align="center"><nobr>УИК №1294</nobr></td><td style="color:black" align="center"><nobr>УИК №1295</nobr></td><td style="color:black" align="center"><nobr>УИК №1296</nobr></td><td style="color:black" align="center"><nobr>УИК №1297</nobr></td><td style="color:black" align="center"><nobr>УИК №1298</nobr></td><td style="color:black" align="center"><nobr>УИК №1299</nobr></td><td style="color:black" align="center"><nobr>УИК №1300</nobr></td><td style="color:black" align="center"><nobr>УИК №1301</nobr></td><td style="color:black" align="center"><nobr>УИК №1302</nobr></td><td style="color:black" align="center"><nobr>УИК №1303</nobr></td><td style="color:black" align="center"><nobr>УИК №1304</nobr></td><td style="color:black" align="center"><nobr>УИК №1305</nobr></td><td style="color:black" align="center"><nobr>УИК №1306</nobr></td><td style="color:black" align="center"><nobr>УИК №1307</nobr></td><td style="color:black" align="center"><nobr>УИК №1308</nobr></td><td style="color:black" align="center"><nobr>УИК №1309</nobr></td><td style="color:black" align="center"><nobr>УИК №1310</nobr></td><td style="color:black" align="center"><nobr>УИК №1311</nobr></td><td style="color:black" align="center"><nobr>УИК №1312</nobr></td><td style="color:black" align="center"><nobr>УИК №1313</nobr></td><td style="color:black" align="center"><nobr>УИК №1314</nobr></td><td style="color:black" align="center"><nobr>УИК №1315</nobr></td><td style="color:black" align="center"><nobr>УИК №1316</nobr></td><td style="color:black" align="center"><nobr>УИК №1317</nobr></td><td style="color:black" align="center"><nobr>УИК №1318</nobr></td><td style="color:black" align="center"><nobr>УИК №1319</nobr></td><td style="color:black" align="center"><nobr>УИК №1320</nobr></td><td style="color:black" align="center"><nobr>УИК №1321</nobr></td><td style="color:black" align="center"><nobr>УИК №1322</nobr></td><td style="color:black" align="center"><nobr>УИК №1323</nobr></td><td style="color:black" align="center"><nobr>УИК №1324</nobr></td><td style="color:black" align="center"><nobr>УИК №1325</nobr></td><td style="color:black" align="center"><nobr>УИК №1326</nobr></td><td style="color:black" align="center"><nobr>УИК №1327</nobr></td><td style="color:black" align="center"><nobr>УИК №1328</nobr></td><td style="color:black" align="center"><nobr>УИК №1329</nobr></td><td style="color:black" align="center"><nobr>УИК №1330</nobr></td><td style="color:black" align="center"><nobr>УИК №1331</nobr></td><td style="color:black" align="center"><nobr>УИК №1332</nobr></td><td style="color:black" align="center"><nobr>УИК №1333</nobr></td><td style="color:black" align="center"><nobr>УИК №1334</nobr></td><td style="color:black" align="center"><nobr>УИК №1335</nobr></td><td style="color:black" align="center"><nobr>УИК №1336</nobr></td><td style="color:black" align="center"><nobr>УИК №1337</nobr></td><td style="color:black" align="center"><nobr>УИК №1338</nobr></td><td style="color:black" align="center"><nobr>УИК №1339</nobr></td><td style="color:black" align="center"><nobr>УИК №1340</nobr></td><td style="color:black" align="center"><nobr>УИК №1341</nobr></td><td style="color:black" align="center"><nobr>УИК №1342</nobr></td><td style="color:black" align="center"><nobr>УИК №1343</nobr></td><td style="color:black" align="center"><nobr>УИК №1344</nobr></td><td style="color:black" align="center"><nobr>УИК №1345</nobr></td><td style="color:black" align="center"><nobr>УИК №1346</nobr></td><td style="color:black" align="center"><nobr>УИК №1347</nobr></td><td style="color:black" align="center"><nobr>УИК №1348</nobr></td><td style="color:black" align="center"><nobr>УИК №1349</nobr></td><td style="color:black" align="center"><nobr>УИК №1350</nobr></td><td style="color:black" align="center"><nobr>УИК №1351</nobr></td><td style="color:black" align="center"><nobr>УИК №1352</nobr></td><td style="color:black" align="center"><nobr>УИК №1353</nobr></td><td style="color:black" align="center"><nobr>УИК №1354</nobr></td><td style="color:black" align="center"><nobr>УИК №1355</nobr></td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>2442</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2437</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3073</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2354</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1342</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1840</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1540</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1253</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1127</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1143</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1116</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2124</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1115</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1398</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1185</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2055</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1291</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1523</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1548</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2221</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1567</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2364</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2250</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2513</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2351</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1270</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1476</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1528</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2452</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2151</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2330</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1276</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1331</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1430</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2030</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1680</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1314</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2352</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2083</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1912</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2365</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1717</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1697</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2190</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1840</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1056</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1730</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1495</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1540</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1660</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1998</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1670</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1070</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1710</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1067</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1050</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1910</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2390</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2710</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2065</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1870</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2042</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1930</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1685</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2470</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2448</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1839</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2380</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2120</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2397</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2889</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2361</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2905</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2255</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2850</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1720</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>136</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1200</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1200</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1200</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1200</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2000</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1500</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>147</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>479</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1097</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>569</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>633</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>262</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>330</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>311</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>330</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>305</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>265</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>255</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>449</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>246</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>330</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>333</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>517</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>321</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>438</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>463</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>470</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>343</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>942</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>961</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1051</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>842</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>545</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>607</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>598</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>870</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>520</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1111</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>523</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>721</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>548</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>881</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>682</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>508</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>874</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>863</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>824</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>883</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>687</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>679</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>892</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>689</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>485</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>772</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>675</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>704</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1052</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>890</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1040</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>503</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>768</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>719</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>420</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>884</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>576</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1202</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1138</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1132</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>995</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>802</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>745</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1050</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>501</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>349</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>950</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>815</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>975</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>789</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>604</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>632</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>935</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>525</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>623</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>136</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>8</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>9</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>8</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>13</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>12</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>11</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>5</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>11</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>8</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>9</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>24</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>31</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>19</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>27</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>44</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>73</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>85</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>17</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>54</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>41</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>38</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>32</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>26</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>43</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>36</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>63</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>35</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>50</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>38</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>35</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>37</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>40</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>12</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>39</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>29</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>41</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>38</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>51</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>87</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>80</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>25</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>23</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>45</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>16</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>69</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>55</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>61</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>57</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>61</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>35</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>63</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>100</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>99</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>52</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>95</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>101</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>100</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>60</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>20</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>1514</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>896</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1923</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1358</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>731</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1162</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1183</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>666</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>682</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>723</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>734</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1545</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>749</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>659</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>662</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1476</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>658</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>755</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1029</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1524</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1148</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1034</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1021</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1418</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1139</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>428</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>549</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>829</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1045</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1463</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>835</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>436</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>241</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>620</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1093</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>775</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>456</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1063</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1102</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>655</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1067</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>775</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>786</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1071</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>771</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>503</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>689</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>496</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>755</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>410</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>559</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>373</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>476</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>652</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>256</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>557</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>571</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1408</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1229</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>807</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>307</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>948</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>637</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>720</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>887</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1399</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1052</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>998</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1090</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>924</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1611</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1395</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1864</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1005</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1974</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>857</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>11</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>8</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>9</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>8</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>13</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>12</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>11</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>5</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>11</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>8</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>9</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>24</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>18</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>31</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>19</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>27</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>44</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>73</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>85</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>17</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>54</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>41</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>38</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>32</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>26</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>43</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>36</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>63</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>35</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>50</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>38</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>35</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>37</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>40</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>12</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>39</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>29</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>41</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>38</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>51</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>87</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>80</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>25</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>23</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>45</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>16</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>69</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>55</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>61</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>57</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>61</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>35</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>63</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>100</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>99</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>52</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>95</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>101</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>100</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>60</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>20</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>479</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1097</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>568</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>633</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>262</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>330</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>311</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>329</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>304</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>265</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>255</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>445</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>246</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>330</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>333</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>510</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>321</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>438</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>460</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>459</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>342</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>940</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>958</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1047</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>840</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>542</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>604</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>591</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>867</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>517</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1108</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>520</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>719</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>544</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>876</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>680</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>506</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>872</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>859</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>823</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>881</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>684</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>676</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>890</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>679</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>484</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>770</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>673</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>703</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1047</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>887</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1039</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>502</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>767</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>718</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>419</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>882</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>576</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1201</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1136</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1131</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>993</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>801</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>744</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1047</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>473</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>349</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>949</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>812</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>971</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>771</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>591</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>632</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>934</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>524</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>621</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>136</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>14</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>12</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>22</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>11</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>15</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>14</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>15</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>10</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>13</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>15</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>5</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>8</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>11</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>11</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>11</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>24</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>8</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>14</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>10</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>5</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>12</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>35</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>5</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>7</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>25</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>5</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>5</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>6</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>21</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>4</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>15</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>24</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>16</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>2</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>9</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>3</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>472</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1104</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>564</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>620</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>258</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>323</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>303</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>318</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>311</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>267</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>253</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>436</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>245</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>336</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>329</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>506</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>331</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>434</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>444</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>457</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>337</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>960</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>972</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1071</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>849</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>566</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>646</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>659</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>940</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>499</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1158</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>558</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>755</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>573</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>898</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>722</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>540</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>932</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>892</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>841</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>927</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>720</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>709</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>920</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>716</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>495</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>805</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>696</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>740</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1080</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>931</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1124</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>521</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>840</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>741</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>439</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>923</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>567</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1265</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1187</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1186</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1045</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>859</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>776</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1104</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>552</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>444</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>998</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>905</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1069</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>856</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>568</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>620</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>992</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>516</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>640</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>133</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>1</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td><td align="right" style="color:black"><nobr><b>0</b></nobr>
+<br>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td style="color:black">
+<br>
+</td><td style="color:black" colspan="2">
+<br>
+</td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>133</b></nobr>
+<br>27.37%
+                                        </td><td align="right" style="color:black"><nobr><b>110</b></nobr>
+<br>9.96%
+                                        </td><td align="right" style="color:black"><nobr><b>161</b></nobr>
+<br>27.95%
+                                        </td><td align="right" style="color:black"><nobr><b>189</b></nobr>
+<br>29.44%
+                                        </td><td align="right" style="color:black"><nobr><b>66</b></nobr>
+<br>24.54%
+                                        </td><td align="right" style="color:black"><nobr><b>76</b></nobr>
+<br>22.49%
+                                        </td><td align="right" style="color:black"><nobr><b>52</b></nobr>
+<br>16.40%
+                                        </td><td align="right" style="color:black"><nobr><b>77</b></nobr>
+<br>23.12%
+                                        </td><td align="right" style="color:black"><nobr><b>83</b></nobr>
+<br>26.18%
+                                        </td><td align="right" style="color:black"><nobr><b>74</b></nobr>
+<br>26.71%
+                                        </td><td align="right" style="color:black"><nobr><b>78</b></nobr>
+<br>29.32%
+                                        </td><td align="right" style="color:black"><nobr><b>107</b></nobr>
+<br>23.73%
+                                        </td><td align="right" style="color:black"><nobr><b>75</b></nobr>
+<br>29.88%
+                                        </td><td align="right" style="color:black"><nobr><b>89</b></nobr>
+<br>26.10%
+                                        </td><td align="right" style="color:black"><nobr><b>99</b></nobr>
+<br>29.38%
+                                        </td><td align="right" style="color:black"><nobr><b>142</b></nobr>
+<br>27.47%
+                                        </td><td align="right" style="color:black"><nobr><b>92</b></nobr>
+<br>26.90%
+                                        </td><td align="right" style="color:black"><nobr><b>113</b></nobr>
+<br>25.39%
+                                        </td><td align="right" style="color:black"><nobr><b>136</b></nobr>
+<br>29.06%
+                                        </td><td align="right" style="color:black"><nobr><b>130</b></nobr>
+<br>27.96%
+                                        </td><td align="right" style="color:black"><nobr><b>102</b></nobr>
+<br>29.06%
+                                        </td><td align="right" style="color:black"><nobr><b>164</b></nobr>
+<br>17.01%
+                                        </td><td align="right" style="color:black"><nobr><b>170</b></nobr>
+<br>17.42%
+                                        </td><td align="right" style="color:black"><nobr><b>186</b></nobr>
+<br>17.25%
+                                        </td><td align="right" style="color:black"><nobr><b>120</b></nobr>
+<br>13.97%
+                                        </td><td align="right" style="color:black"><nobr><b>98</b></nobr>
+<br>17.22%
+                                        </td><td align="right" style="color:black"><nobr><b>108</b></nobr>
+<br>16.67%
+                                        </td><td align="right" style="color:black"><nobr><b>134</b></nobr>
+<br>20.18%
+                                        </td><td align="right" style="color:black"><nobr><b>124</b></nobr>
+<br>13.03%
+                                        </td><td align="right" style="color:black"><nobr><b>106</b></nobr>
+<br>19.85%
+                                        </td><td align="right" style="color:black"><nobr><b>70</b></nobr>
+<br>6.02%
+                                        </td><td align="right" style="color:black"><nobr><b>90</b></nobr>
+<br>16.04%
+                                        </td><td align="right" style="color:black"><nobr><b>92</b></nobr>
+<br>12.15%
+                                        </td><td align="right" style="color:black"><nobr><b>102</b></nobr>
+<br>17.71%
+                                        </td><td align="right" style="color:black"><nobr><b>128</b></nobr>
+<br>14.19%
+                                        </td><td align="right" style="color:black"><nobr><b>111</b></nobr>
+<br>15.35%
+                                        </td><td align="right" style="color:black"><nobr><b>79</b></nobr>
+<br>14.58%
+                                        </td><td align="right" style="color:black"><nobr><b>101</b></nobr>
+<br>10.80%
+                                        </td><td align="right" style="color:black"><nobr><b>120</b></nobr>
+<br>13.42%
+                                        </td><td align="right" style="color:black"><nobr><b>141</b></nobr>
+<br>16.71%
+                                        </td><td align="right" style="color:black"><nobr><b>120</b></nobr>
+<br>12.89%
+                                        </td><td align="right" style="color:black"><nobr><b>95</b></nobr>
+<br>13.16%
+                                        </td><td align="right" style="color:black"><nobr><b>59</b></nobr>
+<br>8.30%
+                                        </td><td align="right" style="color:black"><nobr><b>154</b></nobr>
+<br>16.61%
+                                        </td><td align="right" style="color:black"><nobr><b>74</b></nobr>
+<br>10.29%
+                                        </td><td align="right" style="color:black"><nobr><b>51</b></nobr>
+<br>10.28%
+                                        </td><td align="right" style="color:black"><nobr><b>102</b></nobr>
+<br>12.61%
+                                        </td><td align="right" style="color:black"><nobr><b>70</b></nobr>
+<br>9.97%
+                                        </td><td align="right" style="color:black"><nobr><b>95</b></nobr>
+<br>12.77%
+                                        </td><td align="right" style="color:black"><nobr><b>62</b></nobr>
+<br>5.71%
+                                        </td><td align="right" style="color:black"><nobr><b>140</b></nobr>
+<br>14.93%
+                                        </td><td align="right" style="color:black"><nobr><b>112</b></nobr>
+<br>9.95%
+                                        </td><td align="right" style="color:black"><nobr><b>56</b></nobr>
+<br>10.71%
+                                        </td><td align="right" style="color:black"><nobr><b>81</b></nobr>
+<br>9.56%
+                                        </td><td align="right" style="color:black"><nobr><b>45</b></nobr>
+<br>6.06%
+                                        </td><td align="right" style="color:black"><nobr><b>49</b></nobr>
+<br>11.09%
+                                        </td><td align="right" style="color:black"><nobr><b>131</b></nobr>
+<br>14.13%
+                                        </td><td align="right" style="color:black"><nobr><b>130</b></nobr>
+<br>21.96%
+                                        </td><td align="right" style="color:black"><nobr><b>195</b></nobr>
+<br>15.35%
+                                        </td><td align="right" style="color:black"><nobr><b>103</b></nobr>
+<br>8.65%
+                                        </td><td align="right" style="color:black"><nobr><b>117</b></nobr>
+<br>9.82%
+                                        </td><td align="right" style="color:black"><nobr><b>136</b></nobr>
+<br>12.95%
+                                        </td><td align="right" style="color:black"><nobr><b>102</b></nobr>
+<br>11.83%
+                                        </td><td align="right" style="color:black"><nobr><b>126</b></nobr>
+<br>16.17%
+                                        </td><td align="right" style="color:black"><nobr><b>135</b></nobr>
+<br>12.16%
+                                        </td><td align="right" style="color:black"><nobr><b>99</b></nobr>
+<br>17.28%
+                                        </td><td align="right" style="color:black"><nobr><b>64</b></nobr>
+<br>14.29%
+                                        </td><td align="right" style="color:black"><nobr><b>141</b></nobr>
+<br>14.09%
+                                        </td><td align="right" style="color:black"><nobr><b>212</b></nobr>
+<br>23.37%
+                                        </td><td align="right" style="color:black"><nobr><b>156</b></nobr>
+<br>14.55%
+                                        </td><td align="right" style="color:black"><nobr><b>128</b></nobr>
+<br>14.70%
+                                        </td><td align="right" style="color:black"><nobr><b>105</b></nobr>
+<br>17.74%
+                                        </td><td align="right" style="color:black"><nobr><b>158</b></nobr>
+<br>24.84%
+                                        </td><td align="right" style="color:black"><nobr><b>124</b></nobr>
+<br>12.47%
+                                        </td><td align="right" style="color:black"><nobr><b>115</b></nobr>
+<br>21.90%
+                                        </td><td align="right" style="color:black"><nobr><b>92</b></nobr>
+<br>14.35%
+                                        </td><td align="right" style="color:black"><nobr><b>17</b></nobr>
+<br>12.50%
+                                        </td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td align="right" style="color:black"><nobr><b>226</b></nobr>
+<br>46.50%
+                                        </td><td align="right" style="color:black"><nobr><b>828</b></nobr>
+<br>75.00%
+                                        </td><td align="right" style="color:black"><nobr><b>260</b></nobr>
+<br>45.14%
+                                        </td><td align="right" style="color:black"><nobr><b>293</b></nobr>
+<br>45.64%
+                                        </td><td align="right" style="color:black"><nobr><b>134</b></nobr>
+<br>49.81%
+                                        </td><td align="right" style="color:black"><nobr><b>181</b></nobr>
+<br>53.55%
+                                        </td><td align="right" style="color:black"><nobr><b>168</b></nobr>
+<br>52.99%
+                                        </td><td align="right" style="color:black"><nobr><b>183</b></nobr>
+<br>54.95%
+                                        </td><td align="right" style="color:black"><nobr><b>167</b></nobr>
+<br>52.68%
+                                        </td><td align="right" style="color:black"><nobr><b>145</b></nobr>
+<br>52.35%
+                                        </td><td align="right" style="color:black"><nobr><b>128</b></nobr>
+<br>48.12%
+                                        </td><td align="right" style="color:black"><nobr><b>246</b></nobr>
+<br>54.55%
+                                        </td><td align="right" style="color:black"><nobr><b>131</b></nobr>
+<br>52.19%
+                                        </td><td align="right" style="color:black"><nobr><b>191</b></nobr>
+<br>56.01%
+                                        </td><td align="right" style="color:black"><nobr><b>164</b></nobr>
+<br>48.66%
+                                        </td><td align="right" style="color:black"><nobr><b>287</b></nobr>
+<br>55.51%
+                                        </td><td align="right" style="color:black"><nobr><b>183</b></nobr>
+<br>53.51%
+                                        </td><td align="right" style="color:black"><nobr><b>246</b></nobr>
+<br>55.28%
+                                        </td><td align="right" style="color:black"><nobr><b>233</b></nobr>
+<br>49.79%
+                                        </td><td align="right" style="color:black"><nobr><b>222</b></nobr>
+<br>47.74%
+                                        </td><td align="right" style="color:black"><nobr><b>161</b></nobr>
+<br>45.87%
+                                        </td><td align="right" style="color:black"><nobr><b>703</b></nobr>
+<br>72.93%
+                                        </td><td align="right" style="color:black"><nobr><b>695</b></nobr>
+<br>71.21%
+                                        </td><td align="right" style="color:black"><nobr><b>770</b></nobr>
+<br>71.43%
+                                        </td><td align="right" style="color:black"><nobr><b>589</b></nobr>
+<br>68.57%
+                                        </td><td align="right" style="color:black"><nobr><b>388</b></nobr>
+<br>68.19%
+                                        </td><td align="right" style="color:black"><nobr><b>431</b></nobr>
+<br>66.51%
+                                        </td><td align="right" style="color:black"><nobr><b>451</b></nobr>
+<br>67.92%
+                                        </td><td align="right" style="color:black"><nobr><b>671</b></nobr>
+<br>70.48%
+                                        </td><td align="right" style="color:black"><nobr><b>304</b></nobr>
+<br>56.93%
+                                        </td><td align="right" style="color:black"><nobr><b>1031</b></nobr>
+<br>88.73%
+                                        </td><td align="right" style="color:black"><nobr><b>385</b></nobr>
+<br>68.63%
+                                        </td><td align="right" style="color:black"><nobr><b>591</b></nobr>
+<br>78.07%
+                                        </td><td align="right" style="color:black"><nobr><b>402</b></nobr>
+<br>69.79%
+                                        </td><td align="right" style="color:black"><nobr><b>623</b></nobr>
+<br>69.07%
+                                        </td><td align="right" style="color:black"><nobr><b>492</b></nobr>
+<br>68.05%
+                                        </td><td align="right" style="color:black"><nobr><b>381</b></nobr>
+<br>70.30%
+                                        </td><td align="right" style="color:black"><nobr><b>673</b></nobr>
+<br>71.98%
+                                        </td><td align="right" style="color:black"><nobr><b>614</b></nobr>
+<br>68.68%
+                                        </td><td align="right" style="color:black"><nobr><b>586</b></nobr>
+<br>69.43%
+                                        </td><td align="right" style="color:black"><nobr><b>652</b></nobr>
+<br>70.03%
+                                        </td><td align="right" style="color:black"><nobr><b>502</b></nobr>
+<br>69.53%
+                                        </td><td align="right" style="color:black"><nobr><b>520</b></nobr>
+<br>73.14%
+                                        </td><td align="right" style="color:black"><nobr><b>635</b></nobr>
+<br>68.50%
+                                        </td><td align="right" style="color:black"><nobr><b>521</b></nobr>
+<br>72.46%
+                                        </td><td align="right" style="color:black"><nobr><b>348</b></nobr>
+<br>70.16%
+                                        </td><td align="right" style="color:black"><nobr><b>610</b></nobr>
+<br>75.40%
+                                        </td><td align="right" style="color:black"><nobr><b>531</b></nobr>
+<br>75.64%
+                                        </td><td align="right" style="color:black"><nobr><b>562</b></nobr>
+<br>75.54%
+                                        </td><td align="right" style="color:black"><nobr><b>904</b></nobr>
+<br>83.32%
+                                        </td><td align="right" style="color:black"><nobr><b>699</b></nobr>
+<br>74.52%
+                                        </td><td align="right" style="color:black"><nobr><b>949</b></nobr>
+<br>84.28%
+                                        </td><td align="right" style="color:black"><nobr><b>415</b></nobr>
+<br>79.35%
+                                        </td><td align="right" style="color:black"><nobr><b>659</b></nobr>
+<br>77.80%
+                                        </td><td align="right" style="color:black"><nobr><b>640</b></nobr>
+<br>86.14%
+                                        </td><td align="right" style="color:black"><nobr><b>325</b></nobr>
+<br>73.53%
+                                        </td><td align="right" style="color:black"><nobr><b>682</b></nobr>
+<br>73.57%
+                                        </td><td align="right" style="color:black"><nobr><b>327</b></nobr>
+<br>55.24%
+                                        </td><td align="right" style="color:black"><nobr><b>930</b></nobr>
+<br>73.23%
+                                        </td><td align="right" style="color:black"><nobr><b>963</b></nobr>
+<br>80.86%
+                                        </td><td align="right" style="color:black"><nobr><b>953</b></nobr>
+<br>79.95%
+                                        </td><td align="right" style="color:black"><nobr><b>790</b></nobr>
+<br>75.24%
+                                        </td><td align="right" style="color:black"><nobr><b>640</b></nobr>
+<br>74.25%
+                                        </td><td align="right" style="color:black"><nobr><b>565</b></nobr>
+<br>72.53%
+                                        </td><td align="right" style="color:black"><nobr><b>803</b></nobr>
+<br>72.34%
+                                        </td><td align="right" style="color:black"><nobr><b>334</b></nobr>
+<br>58.29%
+                                        </td><td align="right" style="color:black"><nobr><b>303</b></nobr>
+<br>67.63%
+                                        </td><td align="right" style="color:black"><nobr><b>730</b></nobr>
+<br>72.93%
+                                        </td><td align="right" style="color:black"><nobr><b>586</b></nobr>
+<br>64.61%
+                                        </td><td align="right" style="color:black"><nobr><b>790</b></nobr>
+<br>73.69%
+                                        </td><td align="right" style="color:black"><nobr><b>591</b></nobr>
+<br>67.85%
+                                        </td><td align="right" style="color:black"><nobr><b>310</b></nobr>
+<br>52.36%
+                                        </td><td align="right" style="color:black"><nobr><b>299</b></nobr>
+<br>47.01%
+                                        </td><td align="right" style="color:black"><nobr><b>711</b></nobr>
+<br>71.53%
+                                        </td><td align="right" style="color:black"><nobr><b>215</b></nobr>
+<br>40.95%
+                                        </td><td align="right" style="color:black"><nobr><b>455</b></nobr>
+<br>70.98%
+                                        </td><td align="right" style="color:black"><nobr><b>85</b></nobr>
+<br>62.50%
+                                        </td>
+</tr>
+<tr bgcolor="#CCCCCC">
+<td align="right" style="color:black"><nobr><b>113</b></nobr>
+<br>23.25%
+                                        </td><td align="right" style="color:black"><nobr><b>166</b></nobr>
+<br>15.04%
+                                        </td><td align="right" style="color:black"><nobr><b>143</b></nobr>
+<br>24.83%
+                                        </td><td align="right" style="color:black"><nobr><b>138</b></nobr>
+<br>21.50%
+                                        </td><td align="right" style="color:black"><nobr><b>58</b></nobr>
+<br>21.56%
+                                        </td><td align="right" style="color:black"><nobr><b>66</b></nobr>
+<br>19.53%
+                                        </td><td align="right" style="color:black"><nobr><b>83</b></nobr>
+<br>26.18%
+                                        </td><td align="right" style="color:black"><nobr><b>58</b></nobr>
+<br>17.42%
+                                        </td><td align="right" style="color:black"><nobr><b>61</b></nobr>
+<br>19.24%
+                                        </td><td align="right" style="color:black"><nobr><b>48</b></nobr>
+<br>17.33%
+                                        </td><td align="right" style="color:black"><nobr><b>47</b></nobr>
+<br>17.67%
+                                        </td><td align="right" style="color:black"><nobr><b>83</b></nobr>
+<br>18.40%
+                                        </td><td align="right" style="color:black"><nobr><b>39</b></nobr>
+<br>15.54%
+                                        </td><td align="right" style="color:black"><nobr><b>56</b></nobr>
+<br>16.42%
+                                        </td><td align="right" style="color:black"><nobr><b>66</b></nobr>
+<br>19.58%
+                                        </td><td align="right" style="color:black"><nobr><b>77</b></nobr>
+<br>14.89%
+                                        </td><td align="right" style="color:black"><nobr><b>56</b></nobr>
+<br>16.37%
+                                        </td><td align="right" style="color:black"><nobr><b>75</b></nobr>
+<br>16.85%
+                                        </td><td align="right" style="color:black"><nobr><b>75</b></nobr>
+<br>16.03%
+                                        </td><td align="right" style="color:black"><nobr><b>105</b></nobr>
+<br>22.58%
+                                        </td><td align="right" style="color:black"><nobr><b>74</b></nobr>
+<br>21.08%
+                                        </td><td align="right" style="color:black"><nobr><b>93</b></nobr>
+<br>9.65%
+                                        </td><td align="right" style="color:black"><nobr><b>107</b></nobr>
+<br>10.96%
+                                        </td><td align="right" style="color:black"><nobr><b>115</b></nobr>
+<br>10.67%
+                                        </td><td align="right" style="color:black"><nobr><b>140</b></nobr>
+<br>16.30%
+                                        </td><td align="right" style="color:black"><nobr><b>80</b></nobr>
+<br>14.06%
+                                        </td><td align="right" style="color:black"><nobr><b>107</b></nobr>
+<br>16.51%
+                                        </td><td align="right" style="color:black"><nobr><b>74</b></nobr>
+<br>11.14%
+                                        </td><td align="right" style="color:black"><nobr><b>145</b></nobr>
+<br>15.23%
+                                        </td><td align="right" style="color:black"><nobr><b>89</b></nobr>
+<br>16.67%
+                                        </td><td align="right" style="color:black"><nobr><b>57</b></nobr>
+<br>4.91%
+                                        </td><td align="right" style="color:black"><nobr><b>83</b></nobr>
+<br>14.80%
+                                        </td><td align="right" style="color:black"><nobr><b>72</b></nobr>
+<br>9.51%
+                                        </td><td align="right" style="color:black"><nobr><b>69</b></nobr>
+<br>11.98%
+                                        </td><td align="right" style="color:black"><nobr><b>147</b></nobr>
+<br>16.30%
+                                        </td><td align="right" style="color:black"><nobr><b>119</b></nobr>
+<br>16.46%
+                                        </td><td align="right" style="color:black"><nobr><b>80</b></nobr>
+<br>14.76%
+                                        </td><td align="right" style="color:black"><nobr><b>158</b></nobr>
+<br>16.90%
+                                        </td><td align="right" style="color:black"><nobr><b>158</b></nobr>
+<br>17.67%
+                                        </td><td align="right" style="color:black"><nobr><b>114</b></nobr>
+<br>13.51%
+                                        </td><td align="right" style="color:black"><nobr><b>155</b></nobr>
+<br>16.65%
+                                        </td><td align="right" style="color:black"><nobr><b>123</b></nobr>
+<br>17.04%
+                                        </td><td align="right" style="color:black"><nobr><b>130</b></nobr>
+<br>18.28%
+                                        </td><td align="right" style="color:black"><nobr><b>131</b></nobr>
+<br>14.13%
+                                        </td><td align="right" style="color:black"><nobr><b>121</b></nobr>
+<br>16.83%
+                                        </td><td align="right" style="color:black"><nobr><b>96</b></nobr>
+<br>19.35%
+                                        </td><td align="right" style="color:black"><nobr><b>93</b></nobr>
+<br>11.50%
+                                        </td><td align="right" style="color:black"><nobr><b>95</b></nobr>
+<br>13.53%
+                                        </td><td align="right" style="color:black"><nobr><b>83</b></nobr>
+<br>11.16%
+                                        </td><td align="right" style="color:black"><nobr><b>114</b></nobr>
+<br>10.51%
+                                        </td><td align="right" style="color:black"><nobr><b>92</b></nobr>
+<br>9.81%
+                                        </td><td align="right" style="color:black"><nobr><b>63</b></nobr>
+<br>5.60%
+                                        </td><td align="right" style="color:black"><nobr><b>50</b></nobr>
+<br>9.56%
+                                        </td><td align="right" style="color:black"><nobr><b>100</b></nobr>
+<br>11.81%
+                                        </td><td align="right" style="color:black"><nobr><b>56</b></nobr>
+<br>7.54%
+                                        </td><td align="right" style="color:black"><nobr><b>65</b></nobr>
+<br>14.71%
+                                        </td><td align="right" style="color:black"><nobr><b>110</b></nobr>
+<br>11.87%
+                                        </td><td align="right" style="color:black"><nobr><b>110</b></nobr>
+<br>18.58%
+                                        </td><td align="right" style="color:black"><nobr><b>140</b></nobr>
+<br>11.02%
+                                        </td><td align="right" style="color:black"><nobr><b>121</b></nobr>
+<br>10.16%
+                                        </td><td align="right" style="color:black"><nobr><b>116</b></nobr>
+<br>9.73%
+                                        </td><td align="right" style="color:black"><nobr><b>119</b></nobr>
+<br>11.33%
+                                        </td><td align="right" style="color:black"><nobr><b>117</b></nobr>
+<br>13.57%
+                                        </td><td align="right" style="color:black"><nobr><b>85</b></nobr>
+<br>10.91%
+                                        </td><td align="right" style="color:black"><nobr><b>166</b></nobr>
+<br>14.95%
+                                        </td><td align="right" style="color:black"><nobr><b>119</b></nobr>
+<br>20.77%
+                                        </td><td align="right" style="color:black"><nobr><b>77</b></nobr>
+<br>17.19%
+                                        </td><td align="right" style="color:black"><nobr><b>127</b></nobr>
+<br>12.69%
+                                        </td><td align="right" style="color:black"><nobr><b>107</b></nobr>
+<br>11.80%
+                                        </td><td align="right" style="color:black"><nobr><b>123</b></nobr>
+<br>11.47%
+                                        </td><td align="right" style="color:black"><nobr><b>137</b></nobr>
+<br>15.73%
+                                        </td><td align="right" style="color:black"><nobr><b>153</b></nobr>
+<br>25.84%
+                                        </td><td align="right" style="color:black"><nobr><b>163</b></nobr>
+<br>25.63%
+                                        </td><td align="right" style="color:black"><nobr><b>157</b></nobr>
+<br>15.79%
+                                        </td><td align="right" style="color:black"><nobr><b>186</b></nobr>
+<br>35.43%
+                                        </td><td align="right" style="color:black"><nobr><b>93</b></nobr>
+<br>14.51%
+                                        </td><td align="right" style="color:black"><nobr><b>31</b></nobr>
+<br>22.79%
+                                        </td>
+</tr>
+</table>
+<br></div></td>
+</tr>
+</table>
+
+		</td>
+	</tr>
+</table>
+
+<br/>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26136728-1']);
+  _gaq.push(['_setDomainName', 'izbirkom.ru']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
