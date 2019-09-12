@@ -8,6 +8,9 @@
 (defn calculate-x ^Integer [turn] (calculate- #(Math/sin %) turn))
 (defn calculate-y ^Integer [turn] (calculate- #(Math/cos %) turn))
 
+(defn inc- [x]
+  (+ x (/ 1.0 (+ 1 (/ x (* 360 360))))))
+
 (defn in-rect [^Integer rx ^Integer ry ^Integer x ^Integer y]
   (and
     (<= 0 (* rx x))
@@ -27,11 +30,11 @@
             [x y]))))))
 
 (defn spiral []
-  (let [turn (atom 0)
+  (let [turn (atom 0.0)
         seen-dots (HashSet.)]
     (for [idx (range)]
       (loop [cur-turn @turn]
-        (let [new-turn (inc cur-turn)
+        (let [new-turn (inc- cur-turn)
               old-x (calculate-x cur-turn)
               old-y (calculate-y cur-turn)
               new-x (calculate-x new-turn)
